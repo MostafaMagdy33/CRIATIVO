@@ -1,0 +1,2188 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/*       start nav-1     */
+.nav1 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    height: 55px;
+}
+
+/*       start  nav-1 left    */
+
+
+.nav1 .nav1-left img {
+    height: 57px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+/*       End nav-1 left    */
+
+/*      START nav-1 right    */
+
+.nav1 .nav1-right button {
+    color: white;
+    background-color: #6f9a37;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: #6f9a37;
+    margin-right: 30px;
+}
+
+/*      End nav-1 right    */
+/*       End   nav-1     */
+
+
+
+/*       start nav-2     */
+
+
+
+.nav2 {
+    height: 110px;
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+/*       start nav-2  left   */
+
+.nav2 .nav2-left img {
+    height: 57px;
+}
+
+/*       End nav-2  left   */
+
+/*       start nav-2  right   */
+.nav2 .nav2-right {
+    display: flex;
+
+}
+
+.nav2 .nav2-right h4 {
+    display: flex;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+
+}
+
+.nav2 .nav2-right h4:hover {
+    color: #5cd2b9;
+
+
+}
+
+
+.nav2 .nav2-right a {
+    text-decoration-line: none;
+}
+
+.nav2 .nav2-right .icon i {
+    color: #5cd2b9;
+    margin: 15px;
+    font-size: 22px;
+}
+
+.nav2 .nav2-right .icon i:hover {
+
+    color: white;
+
+}
+
+/*       End nav-2  right   */
+/*       End nav-2     */
+
+/*       start sec 1   */
+.sec1 {
+    height: 90vh;
+    overflow: hidden;
+    background: rgb(12, 12, 13);
+    background: linear-gradient(73deg, rgba(12, 12, 13, 1) 50%, #375d51 100%);
+    position: relative;
+}
+
+/*         start right-img        */
+
+.sec1 .right-img .img1 {
+    position: absolute;
+    left: 52%;
+    bottom: -25%;
+    opacity: 0.7;
+}
+
+/*         End right-img        */
+
+/*         start left-text      */
+
+.sec1 .left-text {
+    position: absolute;
+    left: 15%;
+    bottom: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec1 .left-text h4 {
+    color: #5cd2b9;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.sec1 .left-text h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+
+.sec1 .left-text .span1 {
+
+
+    color: #5cd2b9;
+}
+
+
+.sec1 .left-text h1 .span2 {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #5cd2b9;
+}
+
+.sec1 .left-text .p1 {
+    position: absolute;
+    top: 115%;
+    color: rgba(255, 255, 255, 0.696);
+
+}
+
+.sec1 .left-text .p2 {
+    position: absolute;
+    top: 130%;
+    color: rgba(255, 255, 255, 0.696);
+
+}
+
+.sec1 .left-text .p3 {
+    position: absolute;
+    top: 145%;
+    color: rgba(255, 255, 255, 0.696);
+
+}
+
+/*         End left-text      */
+/*         start left-icon     */
+
+.sec1 .left-icon {
+    position: absolute;
+    left: 15%;
+    top: 75%;
+}
+
+.sec1 .left-icon button {
+    background-color: #5cd2b9;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.sec1 .left-icon button:hover {
+
+    transform: scale(1.1);
+    background-color: #5cd2b9;
+
+}
+
+
+.sec1 .left-icon button i {
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+
+.sec1 .left-icon h5 {
+    position: absolute;
+    left: 110px;
+    top: 5%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+    color: white;
+
+}
+
+.sec1 .left-icon .h5 {
+    position: absolute;
+    left: 190px;
+    top: 5%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+
+}
+
+.sec1 .left-icon .p1 {
+    position: absolute;
+    left: 110px;
+    top: 40px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #5cd2b9;
+}
+
+.sec1 .left-icon .p2 {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    color: #5cd2b9;
+}
+
+/*         End left-icon     */
+/*       End sec 1   */
+/*       start sec 2  */
+
+.sec2 {
+    background-color: black;
+    height: 85vh;
+    overflow: hidden;
+    color: white;
+    position: relative;
+
+}
+
+/*       start sec2-left */
+.sec2 .sec2-left {
+    position: absolute;
+    left: 15%;
+    bottom: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.sec2 .sec2-left .text .p1 {
+
+    color: #5cd2b9;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+.sec2 .sec2-left .text h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+
+
+}
+
+.sec2 .sec2-left .text h1 .span1 {
+    border-bottom: 3px solid #5cd2b9;
+    padding-bottom: 10px;
+}
+
+.sec2 .sec2-left .text h1 .span2 {
+    color: #5cd2b9;
+}
+
+.sec2 .sec2-left .text p {
+
+    font-size: 17px;
+
+}
+
+.sec2 .sec2-left .text .p2 {
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 30px;
+}
+
+.sec2 .sec2-left .text .p3 {
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 5px;
+}
+
+.sec2 .sec2-left .text .p4 {
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 5px;
+}
+
+.sec2 .sec2-left .text .p5 {
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 25px;
+}
+
+.sec2 .sec2-left .text .p6 {
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 5px;
+}
+
+.sec2 .sec2-left .button button {
+    margin-top: 50px;
+    width: 120px;
+    height: 60px;
+    background-color: #5cd2b9;
+    color: white;
+    font-size: 17px;
+}
+
+.sec2 .sec2-left .button button:hover {
+    transform: scale(1, 1);
+    border-color: #5cd2b9;
+    background-color: black;
+    color: white;
+}
+
+/*       End sec2-left */
+/*       Start sec2-right*/
+.sec2 .sec2-right {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec2 .sec2-right .img1 {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid rgb(21, 21, 21);
+    background-color: rgb(21, 21, 21);
+    height: 230px;
+    width: 300px;
+    border: none;
+    transition: 3s;
+}
+.sec2 .sec2-right .img1:hover {
+    transform: translate(0px, -15px);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 14%, rgba(4, 64, 47, 1) 62%, rgba(0, 86, 62, 1) 72%);
+}
+
+
+
+.sec2 .sec2-right .img1 img {
+    position: absolute;
+    left: 32%;
+    bottom: 57%;
+}
+
+.sec2 .sec2-right .img1 h4 {
+    position: absolute;
+    left: 20%;
+    bottom: 40%;
+    font-size: 25px;
+}
+
+.sec2 .sec2-right .img1 p {
+    position: absolute;
+    left: 15%;
+    bottom: 17%;
+    font-size: 15px;
+}
+
+.sec2 .sec2-right .img1 .p1 {
+    position: absolute;
+    left: 10%;
+    bottom: 22%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.sec2 .sec2-right .img1 .p2 {
+    position: absolute;
+    left: 32%;
+    bottom: 10%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.sec2 .sec2-right .img2 {
+    position: absolute;
+    left: 70%;
+    bottom: 45%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid rgb(21, 21, 21);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 14%, rgba(4, 64, 47, 1) 62%, rgba(0, 86, 62, 1) 72%);
+    height: 230px;
+    width: 300px;
+    border: none;
+    transition: 3s;
+}
+.sec2 .sec2-right .img2:hover {
+    transform: translate(0px, -15px);
+    background: rgb(0, 0, 0);
+    background-color: rgb(21, 21, 21);
+}
+
+
+.sec2 .sec2-right .img2 img {
+    position: absolute;
+    left: 32%;
+    bottom: 57%;
+}
+
+.sec2 .sec2-right .img2 h4 {
+    position: absolute;
+    left: 20%;
+    bottom: 40%;
+    font-size: 25px;
+}
+
+.sec2 .sec2-right .img2 p {
+    position: absolute;
+    left: 15%;
+    bottom: 17%;
+    font-size: 15px;
+}
+
+.sec2 .sec2-right .img2 .p1 {
+    position: absolute;
+    left: 10%;
+    bottom: 22%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.sec2 .sec2-right .img2 .p2 {
+    position: absolute;
+    left: 32%;
+    bottom: 10%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.sec2 .sec2-right .img3 {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid rgb(21, 21, 21);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 14%, rgba(4, 64, 47, 1) 62%, rgba(0, 86, 62, 1) 72%);
+    height: 230px;
+    width: 300px;
+    border: none;
+    transition: 3s;
+}
+.sec2 .sec2-right .img3:hover {
+    transform: translate(0px, -15px);
+    background: rgb(0, 0, 0);
+    background-color: rgb(21, 21, 21);
+}
+
+
+
+
+
+
+
+
+
+.sec2 .sec2-right .img3 img {
+    position: absolute;
+    left: 32%;
+    bottom: 57%;
+}
+
+.sec2 .sec2-right .img3 h4 {
+    position: absolute;
+    left: 20%;
+    bottom: 40%;
+    font-size: 25px;
+}
+
+.sec2 .sec2-right .img3 p {
+    position: absolute;
+    left: 15%;
+    bottom: 17%;
+    font-size: 15px;
+}
+
+.sec2 .sec2-right .img3 .p1 {
+    position: absolute;
+    left: 10%;
+    bottom: 22%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.sec2 .sec2-right .img3 .p2 {
+    position: absolute;
+    left: 32%;
+    bottom: 10%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.sec2 .sec2-right .img4 {
+    position: absolute;
+    left: 70%;
+    bottom: 7%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid rgb(21, 21, 21);
+    background-color: rgb(21, 21, 21);
+    height: 230px;
+    width: 300px;
+    border: none;
+    transition: 3s;
+}
+.sec2 .sec2-right .img4:hover {
+    transform: translate(0px, -15px);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 14%, rgba(4, 64, 47, 1) 62%, rgba(0, 86, 62, 1) 72%);
+}
+
+
+
+
+.sec2 .sec2-right .img4 img {
+    position: absolute;
+    left: 32%;
+    bottom: 57%;
+}
+
+.sec2 .sec2-right .img4 h4 {
+    position: absolute;
+    left: 20%;
+    bottom: 40%;
+    font-size: 25px;
+}
+
+.sec2 .sec2-right .img4 p {
+    position: absolute;
+    left: 15%;
+    bottom: 17%;
+    font-size: 15px;
+}
+
+.sec2 .sec2-right .img4 .p1 {
+    position: absolute;
+    left: 10%;
+    bottom: 22%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.sec2 .sec2-right .img4 .p2 {
+    position: absolute;
+    left: 32%;
+    bottom: 10%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+/*       End sec2-right*/
+
+
+
+/*       End sec 2       */
+
+
+
+
+
+/*       Start sec 3       */
+
+.sec3 {
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(12, 12, 13);
+}
+
+
+/*       Start   sec3-left      */
+.sec3 .sec3-left {
+    position: absolute;
+    left: 15%;
+    top: 13%;
+
+
+
+}
+
+/*       End   sec3-left      */
+
+/*       Start   sec3-right     */
+
+
+.sec3 .sec3-right .text {
+    position: absolute;
+    left: 45%;
+    bottom: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.sec3 .sec3-right .text .p1 {
+
+    color: #5cd2b9;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+.sec3 .sec3-right .text h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+
+
+}
+
+.sec3 .sec3-right .text h1 .span2 {
+    border-bottom: 3px solid #5cd2b9;
+    padding-bottom: 10px;
+}
+
+.sec3 .sec3-right .text h1 .span1 {
+    color: #5cd2b9;
+}
+
+.sec3 .sec3-right .text p {
+
+    font-size: 17px;
+
+}
+
+.sec3 .sec3-right .text .p2 {
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 30px;
+}
+
+.sec3 .sec3-right .text .p3 {
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 5px;
+}
+
+.sec3 .sec3-right .text .p4 {
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 5px;
+}
+
+.sec3 .sec3-right .left-box img {
+    position: absolute;
+    left: 45%;
+    bottom: 12%;
+
+}
+
+.sec3 .sec3-right .left-box h1 {
+    position: absolute;
+    left: 51%;
+    bottom: 18%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec3 .sec3-right .left-box .p1 {
+    position: absolute;
+    left: 51%;
+    bottom: 12%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.sec3 .sec3-right .left-box .p2 {
+    position: absolute;
+    left: 51%;
+    bottom: 8%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.sec3 .sec3-right .right-box img {
+    position: absolute;
+    left: 70%;
+    bottom: 12%;
+
+}
+
+.sec3 .sec3-right .right-box h1 {
+    position: absolute;
+    left: 76%;
+    bottom: 18%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec3 .sec3-right .right-box .p1 {
+    position: absolute;
+    left: 76%;
+    bottom: 12%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+.sec3 .sec3-right .right-box .p2 {
+    position: absolute;
+    left: 76%;
+    bottom: 8%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.696);
+}
+
+/*       End   sec3-right     */
+
+/*       End sec 3       */
+
+
+
+/*       start sec 4       */
+.sec4 {
+    position: relative;
+    overflow: hidden;
+    height: 37vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(34, 58, 50, 1) 72%);
+}
+
+/*       start sec4-center      */
+
+.sec4 .sec4-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.sec4 .sec4-center div {
+    margin: 60px 80px 60px 80px;
+
+}
+
+.sec4 .sec4-center div h1 {
+
+    font-size: 55px;
+    color: #5cd2b9;
+}
+
+.sec4 .sec4-center div h1 span {
+
+    font-size: 25px;
+    color: white;
+}
+
+.sec4 .sec4-center div p {
+
+    font-size: 18px;
+    color: white;
+}
+
+
+/*       End sec4-center      */
+
+/*       start sec4-right     */
+.sec4 .sec4-right img {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 105%;
+    opacity: 0.2;
+}
+
+/*       End sec4-right     */
+
+
+/*       End sec 4       */
+
+/*       start sec 5      */
+
+.sec5 {
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/*       start sec5-text    */
+
+
+
+.sec5 .sec5-text {
+    color: white;
+    position: absolute;
+    left: 16%;
+    top: 13%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec5 .sec5-text .p0 {
+    color: #5cd2b9;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.sec5 .sec5-text .p0 {
+    color: #5cd2b9;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.sec5 .sec5-text h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.sec5 .sec5-text .span1 {
+    border-bottom: 3px solid #5cd2b9;
+    padding-bottom: 10px;
+}
+
+.sec5 .sec5-text .span2 {
+    color: #5cd2b9;
+}
+
+
+.sec5 .sec5-text .p1 {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 30px;
+
+}
+
+.sec5 .sec5-text .p2 {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 5px;
+}
+
+.sec5 .sec5-text .p3 {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 5px;
+}
+
+.sec5 .sec5-text .p4 {
+
+    color: white;
+    margin-top: 20px;
+}
+
+.sec5 .sec5-text i {
+    margin-right: 10px;
+    color: #5cd2b9;
+    font-size: 20px;
+}
+
+.sec5 .sec5-text .p5 {
+
+    color: white;
+    margin-top: 20px;
+}
+
+
+.sec5 .sec5-text img {
+    height: 340px;
+    width: 370px;
+}
+
+
+
+.sec5 .sec5-text .img4 {
+
+
+    position: absolute;
+    top: 10%;
+    left: 103%;
+}
+
+/*       End sec5-text    */
+
+/*       start sec5-img   */
+.sec5 .sec5-img {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 55%;
+
+
+
+}
+
+.sec5 .sec5-img img {
+    height: 340px;
+    width: 370px;
+}
+
+/*       End sec5-img   */
+
+
+/*       End sec 5      */
+
+/*       start sec6   */
+
+
+
+.sec6 {
+    height: 22vh;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(100deg, rgba(0, 0, 0, 1) 0%, rgba(34, 58, 50, 1) 32%);
+    position: relative;
+}
+
+.sec6 .background {
+    opacity: 0.2;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 105%;
+}
+
+/*       start sec6-img   */
+
+.sec6 .sec6-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.sec6 .sec6-img .img1 {
+    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition-duration: 1s;
+
+}
+
+.sec6 .sec6-img .img1:hover {
+    filter: none;
+
+}
+
+.sec6 .sec6-img .img2 {
+    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition-duration: 1s;
+
+}
+
+.sec6 .sec6-img .img2:hover {
+    filter: none;
+
+}
+
+.sec6 .sec6-img .img3 {
+    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition-duration: 1s;
+
+}
+
+.sec6 .sec6-img .img3:hover {
+    filter: none;
+
+}
+
+.sec6 .sec6-img .img4 {
+    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition-duration: 1s;
+
+}
+
+.sec6 .sec6-img .img4:hover {
+    filter: none;
+
+}
+
+.sec6 .sec6-img .img5 {
+    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition-duration: 1s;
+
+}
+
+.sec6 .sec6-img .img5:hover {
+    filter: none;
+
+}
+
+.sec6 .sec6-img img {
+    margin-top: 50px;
+    height: 80px;
+
+}
+
+/*       End sec6-img   */
+
+/*       End sec6   */
+
+
+
+
+/*       start sec7   */
+.sec7 {
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/*       start sec7-text   */
+
+.sec7 .sec7-text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec7 .sec7-text .h1 p {
+
+    color: #5cd2b9;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sec7 .sec7-text .h1 h1 {
+
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.sec7 .sec7-text .h1 h1 .span1 {
+
+    color: #5cd2b9;
+}
+
+.sec7 .sec7-text .p {
+    margin-left: 100px;
+
+
+}
+
+.sec7 .sec7-text .p1 {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 30px;
+
+}
+
+.sec7 .sec7-text .p2 {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 5px;
+}
+
+.sec7 .sec7-text .p3 {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 5px;
+}
+
+.sec7 .sec7-text .p4 {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.sec7 .sec7-text .p5 {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.sec7 .sec7-text i {
+    margin-right: 10px;
+    color: #5cd2b9;
+    font-size: 25px;
+}
+
+/*       End sec7-text   */
+
+/*       start sec7-img   */
+
+.sec7 .sec7-img img {
+    height: 300px;
+    width: 500px;
+}
+
+.sec7 .sec7-img .img1 {
+    position: absolute;
+    left: 20%;
+    top: 52%;
+}
+
+
+.sec7 .sec7-img .img2 {
+    position: absolute;
+    left: 52%;
+    top: 60%;
+}
+
+.sec7 .sec7-img .sec7-img1 i {
+    position: absolute;
+    left: 32%;
+    top: 63%;
+    color: rgba(255, 255, 255, 0.655);
+    font-size: 100px;
+}
+
+.sec7 .sec7-img .sec7-img2 i {
+    position: absolute;
+    left: 65%;
+    top: 73%;
+    color: rgba(255, 255, 255, 0.655);
+    font-size: 100px;
+
+}
+
+/*       End sec7-img   */
+
+/*       End sec7   */
+
+/*           Start sec8      */
+
+.sec8 {
+    height: 110vh;
+    background-color: rgb(21, 21, 21);
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+
+
+
+.sec8 .background {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/*           Start sec8-text     */
+
+.sec8 .sec8-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec8 .sec8-text .p1 {
+    color: #5cd2b9;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec8 .sec8-text h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sec8 .sec8-text div h1 .span1 {
+
+    border-bottom: 3px solid #5cd2b9;
+
+
+}
+
+.sec8 .sec8-text h1 .span2 {
+    margin-left: 10px;
+    color: #5cd2b9;
+}
+
+.sec8 .sec8-text .p2 {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.696);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.sec8 .sec8-text .p3 {
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.696);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+/*           End sec8-text     */
+
+
+/*           Start sec8-imgbox     */
+.sec8 .sec8-imgbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.sec8 .sec8-imgbox .box1 {
+    width: 500px;
+    height: 210px;
+    position: absolute;
+    left: 20%;
+    top: 37%;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    display: flex;
+    background-color: rgb(21, 21, 21);
+    align-items: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec8 .sec8-imgbox .box1 img {
+    margin-bottom: 40px;
+    filter: brightness(80%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition-duration: 0.8s;
+
+}
+
+
+
+.sec8 .sec8-imgbox .box1 .text h4 {
+
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sec8 .sec8-imgbox .box1 .text .p0 {
+    color: #5cd2b9;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.sec8 .sec8-imgbox .box1 .text .p1 {
+    color: rgba(255, 255, 255, 0.696);
+    font-size: 17px;
+
+}
+
+.sec8 .sec8-imgbox .box1 .text .p2 {
+    color: rgba(255, 255, 255, 0.696);
+    font-size: 17px;
+
+}
+
+.sec8 .sec8-imgbox .box1 .icon-bar i {
+    color: #5cd2b9;
+    margin: 20px 5px 10px 5px;
+}
+
+.sec8 .sec8-imgbox .box2 {
+    width: 500px;
+    height: 210px;
+    position: absolute;
+    left: 110%;
+
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(21, 21, 21);
+    display: flex;
+
+    align-items: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec8 .sec8-imgbox .box2 img {
+    margin-bottom: 40px;
+    filter: brightness(80%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition-duration: 0.8s;
+
+}
+
+.sec8 .sec8-imgbox .box2 .text h4 {
+
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sec8 .sec8-imgbox .box2 .text .p0 {
+    color: #5cd2b9;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.sec8 .sec8-imgbox .box2 .text .p1 {
+    color: rgba(255, 255, 255, 0.696);
+    font-size: 17px;
+
+}
+
+.sec8 .sec8-imgbox .box12 .text .p2 {
+    color: rgba(255, 255, 255, 0.696);
+    font-size: 17px;
+
+}
+
+.sec8 .sec8-imgbox .box2 .icon-bar i {
+    color: #5cd2b9;
+    margin: 20px 5px 10px 5px;
+}
+
+.sec8 .sec8-imgbox .box3 {
+    width: 500px;
+    height: 210px;
+    position: absolute;
+    right: 110%;
+    top: 120%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    display: flex;
+    background-color: rgb(21, 21, 21);
+    align-items: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec8 .sec8-imgbox .box3 img {
+    margin-bottom: 40px;
+    filter: brightness(80%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition-duration: 0.8s;
+
+}
+
+.sec8 .sec8-imgbox .box3 .text h4 {
+
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sec8 .sec8-imgbox .box3 .text .p0 {
+    color: #5cd2b9;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.sec8 .sec8-imgbox .box3 .text .p1 {
+    color: rgba(255, 255, 255, 0.696);
+    font-size: 17px;
+
+}
+
+.sec8 .sec8-imgbox .box3 .text .p2 {
+    color: rgba(255, 255, 255, 0.696);
+    font-size: 17px;
+
+}
+
+.sec8 .sec8-imgbox .box3 .icon-bar i {
+    color: #5cd2b9;
+    margin: 20px 5px 10px 5px;
+}
+
+.sec8 .sec8-imgbox .box4 {
+    width: 500px;
+    height: 210px;
+    position: absolute;
+    left: 110%;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    display: flex;
+    background-color: rgb(21, 21, 21);
+    align-items: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec8 .sec8-imgbox .box4 img {
+    margin-bottom: 40px;
+    filter: brightness(80%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+    transition-duration: 0.8s;
+
+}
+
+.sec8 .sec8-imgbox .box4 .text h4 {
+
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sec8 .sec8-imgbox .box4 .text .p0 {
+    color: #5cd2b9;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.sec8 .sec8-imgbox .box4 .text .p1 {
+    color: rgba(255, 255, 255, 0.696);
+    font-size: 17px;
+
+}
+
+.sec8 .sec8-imgbox .box4 .text .p2 {
+    color: rgba(255, 255, 255, 0.696);
+    font-size: 17px;
+
+}
+
+.sec8 .sec8-imgbox .box4 .icon-bar i {
+    color: #5cd2b9;
+    margin: 20px 5px 10px 5px;
+}
+
+/*           End sec8-imgbox     */
+
+
+/*           End   sec 8    */
+
+
+/*           START   SEC 9       */
+
+.sec9 {
+    height: 200vh;
+    background-color: black;
+    overflow: hidden;
+
+}
+
+
+/*           START   sec9-text      */
+
+
+.sec9 .sec9-text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec9 .sec9-text div .p1 {
+    display: flex;
+    justify-content: center;
+    color: #5cd2b9;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+.sec9 .sec9-text div h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+
+
+}
+
+.sec9 .sec9-text div h1 .span1 {
+    border-bottom: 3px solid #5cd2b9;
+    padding-bottom: 10px;
+
+}
+
+.sec9 .sec9-text div h1 .span2 {
+    color: #5cd2b9;
+
+}
+
+.sec9 .sec9-text div h1 .span3 {
+    color: #5cd2b9;
+
+}
+
+.sec9 .sec9-text div .p2 {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 15px;
+
+}
+
+.sec9 .sec9-text div .p3 {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 5px;
+
+}
+
+/*           END   sec9-text      */
+
+
+/*           START   sec9-img      */
+
+
+
+
+.sec9 .sec9-img {
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sec9 .sec9-img div img {
+
+    width: 400px;
+    height: 370px;
+    margin: 10px;
+
+
+}
+
+
+/*           END   sec9-img      */
+
+/*           END   sec9     */
+
+/*           Start   sec10      */
+
+.sec10 {
+    height: 65vh;
+    background-color: rgb(21, 21, 21);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec10 .background {
+    position: absolute;
+    bottom: -50%;
+    opacity: 0.4;
+}
+
+/*           Start   sec10-left     */
+.sec10 .sec10-left {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: +1;
+    margin-top: 150px;
+}
+
+
+
+.sec10 .sec10-left .text .p1 {
+    color: #5cd2b9;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sec10 .sec10-left .text h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+
+}
+
+.sec10 .sec10-left .text h1 .span1 {
+    border-bottom: 3px solid #5cd2b9;
+    padding-bottom: 10px;
+
+}
+
+.sec10 .sec10-left .text h1 .span2 {
+
+    color: #5cd2b9;
+}
+
+.sec10 .sec10-left .text .p2 {
+    color: rgba(255, 255, 255, 0.696);
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.sec10 .sec10-left .text .p3 {
+    color: rgba(255, 255, 255, 0.696);
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.sec10 .sec10-left .text .p4 {
+    color: rgba(255, 255, 255, 0.696);
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.sec10 .sec10-left .button button {
+    margin-top: 50px;
+    height: 60px;
+    width: 300px;
+    background-color: #5cd2b9;
+    color: white;
+    font-size: 17px;
+
+
+}
+
+.sec10 .sec10-left .button button:hover {
+    transform: scale(1, 1);
+    border: #5cd2b9;
+    border-color: #5cd2b9;
+    background-color: black;
+    color: white;
+
+}
+
+/*           END   sec10-left     */
+
+/*           START   sec10-RIGHT    */
+.sec10 .sec10-right {
+    margin-top: 150px;
+
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(21, 21, 21);
+    height: 250px;
+    width: 550px;
+    opacity: 0.9;
+    position: relative;
+}
+
+.sec10 .sec10-right .box-text {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.696);
+
+}
+
+.sec10 .sec10-right .box-text p {
+    margin: 10px;
+
+}
+
+.sec10 .sec10-right .img img {
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+.sec10 .sec10-right .img .p1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transition: 1s;
+}
+
+.sec10 .sec10-right .img .p2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #5cd2b9;
+    position: absolute;
+    top: 75%;
+    left: 20%;
+}
+
+.sec10 .sec10-right .img .p1:hover {
+    color: #5cd2b9;
+
+
+}
+
+.sec10 .sec10-right .icon i {
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    color: #5cd2b9;
+    font-size: 65px;
+
+}
+
+/*           END   sec10-RIGHT    */
+
+/*           END   sec 10   */
+
+/*           START   SEC    11       */
+.sec11 {
+    height: 110vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+/*           START   sec11-top      */
+
+
+
+.sec11 .sec11-top {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 100px;
+
+
+
+}
+
+.sec11 .sec11-top .text .p1 {
+    display: flex;
+    justify-content: center;
+    color: #5cd2b9;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.sec11 .sec11-top .text h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+
+}
+
+.sec11 .sec11-top .text h1 .span1 {
+    border-bottom: 3px solid #5cd2b9;
+    padding-bottom: 10px;
+}
+
+.sec11 .sec11-top .text h1 .span2 {
+
+    color: #5cd2b9;
+    margin-left: 10px;
+}
+
+.sec11 .sec11-top .text .p2 {
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sec11 .sec11-top .text .p3 {
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*           END   sec11-top      */
+
+/*           START   sec11-BOTTOM      */
+
+
+.sec11 .sec11-bottom {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec11 .sec11-bottom .box1 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 5px;
+    background: rgb(28, 28, 28);
+    background: linear-gradient(0deg, rgba(28, 28, 28, 0.9072421204810049) 9%, rgba(34, 58, 50, 0.7139648095566351) 32%);
+    height: 450px;
+
+
+}
+
+.sec11 .sec11-bottom .box1 .img {
+    margin-bottom: 10px;
+
+}
+
+.sec11 .sec11-bottom .box1 .text h4 {
+    font-size: 25px;
+    color: #5cd2b9;
+}
+
+
+.sec11 .sec11-bottom .box1 .text h4:hover {
+
+    color: white;
+}
+
+
+.sec11 .sec11-bottom .box1 .text p {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.696);
+    margin-top: 5px;
+}
+
+.sec11 .sec11-bottom .box1 .icon-bar {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0.491);
+}
+
+.sec11 .sec11-bottom .box1 .icon-bar .p1 {
+    margin-right: 30px;
+
+
+}
+
+.sec11 .sec11-bottom .box1 .icon-bar .p2 {
+    color: #5cd2b9;
+
+
+}
+
+.sec11 .sec11-bottom .box1 .icon-bar .p2:hover {
+    color: white;
+
+
+}
+
+
+
+
+.sec11 .sec11-bottom .box1 .icon-bar i {
+    margin-right: 5px;
+    color: rgba(255, 255, 255, 0.491);
+}
+
+/*           END   sec11-BOTTOM      */
+
+/*           END   sec 11     */
+
+/*           START   sec 12     */
+
+.sec12 {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: rgb(21, 21, 21);
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+.sec12 .background {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*           START   sec 12-left     */
+.sec12 form {
+    border: 1px solid #5cd2b9;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 30px;
+    height: 600px;
+    width: 550px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec12 form .Name p {
+    color: #5cd2b9;
+    font-size: large;
+    margin-bottom: 15PX;
+
+}
+
+.sec12 form .Name input {
+    width: 490PX;
+    height: 60PX;
+    background-color: rgb(0, 0, 0);
+    border: 2PX solid #375d51;
+    padding: 10px;
+}
+
+.sec12 form .email p {
+    color: #5cd2b9;
+    font-size: large;
+    margin-bottom: 15PX;
+    margin-top: 15px;
+
+}
+
+.sec12 form .email input {
+    width: 490PX;
+    height: 60PX;
+    background-color: rgb(0, 0, 0);
+    border: 2PX solid #375d51;
+    padding: 10px;
+}
+
+.sec12 form .Message p {
+    color: #5cd2b9;
+    font-size: large;
+    margin-bottom: 15PX;
+    margin-top: 15px;
+
+}
+
+.sec12 form .Message textarea {
+    width: 490PX;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    border: 2PX solid #375d51;
+    padding: 10px;
+}
+
+.sec12 form .button button {
+    margin-top: 15px;
+    width: 490PX;
+    height: 60PX;
+    font-size: larger;
+    background-color: #5cd2b9;
+    color: white;
+}
+
+.sec12 form .button button:hover {
+    transform: scale(1.1);
+    color: black;
+    border-color: #5cd2b9;
+
+
+}
+/*           END   sec 12-left     */
+
+/*           Start   sec 12-right     */
+
+.sec12 .sec12-right {
+margin-top: 100px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec12 .sec12-right .text .p1 {
+    color: #5cd2b9;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.sec12 .sec12-right .text h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.sec12 .sec12-right .text h1 .span1  {
+    border-bottom: 3px solid #5cd2b9;
+    padding: 10px;
+}
+.sec12 .sec12-right .text h1 .span2  {
+   color: #5cd2b9;
+}
+
+.sec12 .sec12-right .text .p2  {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.696);
+ }
+ .sec12 .sec12-right .text .p3  {
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.696);
+ }
+ .sec12 .sec12-right .text .p4  {
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.696);
+ }
+
+ .sec12 .sec12-right .icon-text .Address {
+display: flex;
+margin-top: 50px;
+
+
+ }
+ .sec12 .sec12-right .icon-text .Address h4 {
+color: white;
+font-size: 25px;
+
+ }
+ .sec12 .sec12-right .icon-text .Address p {
+margin-top: 5px;
+color: #5cd2b9;
+font-size: 17px;
+ }
+ .sec12 .sec12-right .icon-text .Address i {
+color: #5cd2b9;
+font-size: 40px;
+margin-right: 30px; 
+}
+
+
+
+.sec12 .sec12-right .icon-text .Call {
+    display: flex;
+    margin-top: 50px;
+    
+    
+     }
+     .sec12 .sec12-right .icon-text .Call h4 {
+    color: white;
+    font-size: 25px;
+    
+     }
+     .sec12 .sec12-right .icon-text .Call p {
+    margin-top: 5px;
+    color: #5cd2b9;
+    font-size: 17px;
+     }
+     .sec12 .sec12-right .icon-text .Call i {
+    color: #5cd2b9;
+    font-size: 40px;
+    margin-right: 30px; 
+    }
+   
+    
+
+
+
+    .sec12 .sec12-right .icon-text .Mail {
+        display: flex;
+        margin-top: 50px;
+        
+        
+         }
+         .sec12 .sec12-right .icon-text .Mail h4 {
+        color: white;
+        font-size: 25px;
+        
+         }
+         .sec12 .sec12-right .icon-text .Mail p {
+        margin-top: 5px;
+        color: #5cd2b9;
+        font-size: 17px;
+         }
+         .sec12 .sec12-right .icon-text .Mail i {
+        color: #5cd2b9;
+        font-size: 40px;
+        margin-right: 30px; 
+      
+        }
+
+/*           END   sec 12-right     */
+
+/*           END   sec 12          */
+
+/*           START   sec 13          */
+.sec13 {
+height: 70vh;
+overflow: hidden;
+background: rgb(33,53,46);
+background: radial-gradient(circle, rgba(33,53,46,1) 0%, rgba(7,29,22,1) 0%, rgba(0,0,0,1) 65%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sec13 img {
+margin-left: 150px;
+}
+.sec13 .nav {
+    margin-top: 10px;
+display: flex;
+justify-content: center;
+
+}
+.sec13 .nav h4 {
+margin: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #5cd2b9;
+font-size: 17px;
+transition: 1s;
+}
+.sec13 .nav h4:hover {
+color: white;
+
+
+}
+
+
+.sec13 .nav a {
+text-decoration: none;
+}
+.sec13  .sec13-center .text .p1 {
+display: flex;
+justify-content: center;
+color: white;
+margin-top: 10px;
+font-size: 17px;
+}
+.sec13  .sec13-center .text .p2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 17px;
+    }
+    .sec13  .sec13-center .icon-bar {
+display: flex;
+justify-content: center;
+margin-top: 50px;
+    }
+
+    .sec13  .sec13-center .icon-bar i {
+color: #5cd2b9;
+font-size: 20px;
+margin: 20px;
+transition: 1s;
+    }
+
+    .sec13  .sec13-center .icon-bar i:hover {
+color: white;
+transform: translate(7px ,0 );
+
+
+    }
+  /*           END   sec 13          */
